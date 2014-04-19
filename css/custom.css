@@ -1,0 +1,49 @@
+.rak{
+	padding-left: 70px;
+	padding-right:70px;
+	height:190px;
+}
+.rak-left{
+	background:url('../img/rak-left.png') no-repeat bottom right;
+	width:56px;
+	right:56px;
+	height:147px;
+	display:block;
+	float: left;
+	margin-left: -100%;
+	position: relative;
+}
+
+.rak-right{
+	background:url('../img/rak-right.png') no-repeat bottom left;
+	width:56px;
+	height:147px;
+	margin-right: -56px; 
+	display:block;
+	float: left;
+	position: relative;
+}
+
+.rak-center{
+	background:url('../img/rak-center.png') repeat-x bottom center;
+	float:left;
+	width:100%;
+	height:147px;
+	display:block;
+	position: relative;
+}
+
+.rak-center ul{
+	list-style-type: none;
+}
+
+.rak-center li{
+	width:100px;
+	display:inline;
+	margin-right:25px;
+}
+
+.rak-center li img{
+	max-width:100px;
+	max-height:100px;
+}
